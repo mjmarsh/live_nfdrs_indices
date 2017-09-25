@@ -8,8 +8,8 @@ A. Hourly data is imported to this sheet using 'IMPORTHTML' and 'GOOGLEFINANCE' 
 (GOOGLEFINANCE is used due to its live updating, which is not possible with IMPORTHTML' formula alone)
 
 
-B. There are 4 Scripts running every 15 minutes (Update Weather xx) 
-- All scripts are identical except for their unique url by weather station
+B. There are 4 Scripts running every 15 minutes ('Update Weather') 
+- All scripts are identical except for their unique url by weather station (named by station)
 
 ---
 
