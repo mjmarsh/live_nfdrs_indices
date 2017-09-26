@@ -24,7 +24,9 @@ function getData() {
 
 1. Weather records from RAWS are updated every 15 minutes automatically
 
-2. Next step: 
+2. Write script to archive(import) to 'Responses' sheet at 10:00 and 2:00 each day
+
+3. Next step: 
 
   either pull hourly BI, SC, ERC data from somewhere??? Like https://cefa.dri.edu/HourlyFD/Nelson/animate/
 
