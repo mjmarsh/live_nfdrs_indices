@@ -12,11 +12,11 @@ B. There are 4 Scripts running every 15 minutes ('Update Weather')
 - All scripts are identical except for their unique url by weather station (named by station)
 
 ---
-
+#### Example Script
 function getData() {
-  SpreadsheetApp.getActiveSheet().getRange('A2').setValue('=http://mesowest.utah.edu/cgi-bin/droman/meso_table_mesowest_m.cgi?stn=TABC1&year1=2017&month1=9&day1=27&hour1=14&time=LOCAL&past=0"&GOOGLEFINANCE("GOOG","price"),"table",0)');
-
+  SpreadsheetApp.getActiveSheet().getRange('Auto-import!A2').setValue('=IMPORTHTML("http://mesowest.utah.edu/cgi-bin/droman/meso_table_mesowest_m.cgi?stn=TABC1&year1=2017&month1=9&day1=27&hour1=14&time=LOCAL&past=0"&GOOGLEFINANCE("GOOG","price"),"table",0)');
 }
+
 
 ---
 
