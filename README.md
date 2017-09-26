@@ -26,7 +26,7 @@ function getData() {
 
 2. Next step: 
 
-  either pull hourly BI, SC, ERC data from somewhere???
+  either pull hourly BI, SC, ERC data from somewhere??? Like https://cefa.dri.edu/HourlyFD/Nelson/animate/
 
   OR
 
