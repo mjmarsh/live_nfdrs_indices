@@ -19,3 +19,15 @@ function getData() {
 }
 
 ---
+
+### Progress as of 9/26/2017
+
+1. Weather records from RAWS are updated every 15 minutes automatically
+
+2. Next step: 
+
+  either pull hourly BI, SC, ERC data from somewhere???
+
+  OR
+
+  create formula to calculate BI with weather observations within Sheets
